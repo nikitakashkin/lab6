@@ -1,6 +1,53 @@
 ﻿#include <iostream>
 using namespace std;
 
+/*
+float przelicz(float temp);
+void zapisz(float temp_p, float temp_k);
+void wyswietl();
+
+float TEMP1[10];
+float TEMP2[10];
+int INDEKS = 0;
+
+int main(){//zadanie 3
+	float temp_p, temp_k;
+	int f;
+
+	while (1) {
+		cout << "Podaj poczatkowa temperature w stopniach Celsjusza: ";
+		cin >> temp_p;
+
+		temp_k = przelicz(temp_p);
+		zapisz(temp_p, temp_k);
+
+		cout << "Czy chcesz wyswietlic zapisane wartosci? (1 - tak, 0 - nie): ";
+		if (cin >> f && f == 1) {
+			wyswietl();
+		}
+		else { return 0; }
+	}
+	return 0;
+}
+float przelicz(float temp) {
+	return temp + 273.15;
+}
+void zapisz(float temp_p, float temp_k) {
+	if (INDEKS < 10) {
+		TEMP1[INDEKS] = temp_p;
+		TEMP2[INDEKS] = temp_k;
+		INDEKS++;
+	}
+	else {
+		cout << "Koniec miejsca w tablicy, przeliczenie nie zostanie zapisane" << endl;
+	}
+}
+void wyswietl() {
+	for (int i = 0; i < INDEKS; i++) {
+		cout << i+1 << ": " << TEMP1[i] << "C" << " -> " << TEMP2[i] << "K" << endl;
+	}
+}
+*/
 
 
 /*
