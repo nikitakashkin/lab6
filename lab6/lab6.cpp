@@ -1,20 +1,69 @@
-﻿// lab6.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
+﻿#include <iostream>
+using namespace std;
 
-#include <iostream>
+
+
+/*
+void usun();
+
+int tab[10];
+int rozmiar = 10;
+
+int main() {//zadanie 2
+	char odp;
+	for (int i = 0; i < rozmiar; i++) {
+		cout << "Wpisz wartosc dla tab[" << i << "]: ";
+		cin >> tab[i];
+	}
+	cout<< "Czy chcesz usunac element z tablicy? (t/n): ";
+	cin >> odp;
+
+	if (odp == 't') {
+		usun();
+		cout << "Tablica po usunieciu elementu: "<<endl;
+		for (int i = 0; i < rozmiar; i++) {
+			cout << "tab[" << i << "] = " << tab[i] << endl;
+		}
+	}
+	else {
+		cout << "Koniec programu." << endl;
+	}
+}
+void usun() {
+	int num;
+	cout << "Podaj numer elementu do usuniecia(0-9): ";
+	cin >> num;
+	if (num < 1 || num > rozmiar) {
+		cout << "Nieprawidlowy numer elementu." << endl;
+	}
+	else {
+		for (int i = num ;i < rozmiar; i ++) {
+			tab[i] = tab[i + 1];
+		}
+		rozmiar--;
+	}
+
+}
+*/
+
+/*
+int suma(int x, int y);
+ 
+int a = 20;//zadanie 1
+int b = 10;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	cout<<suma (a, b)<<endl;
+	int a = 1;
+	int b = 2;
+	cout<<suma (a, b)<<endl;
 }
 
-// Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
-// Debugowanie programu: F5 lub menu Debugowanie > Rozpocznij debugowanie
+int suma(int x, int y)
+{
+	return x + y;
+}
 
-// Porady dotyczące rozpoczynania pracy:
-//   1. Użyj okna Eksploratora rozwiązań, aby dodać pliki i zarządzać nimi
-//   2. Użyj okna programu Team Explorer, aby nawiązać połączenie z kontrolą źródła
-//   3. Użyj okna Dane wyjściowe, aby sprawdzić dane wyjściowe kompilacji i inne komunikaty
-//   4. Użyj okna Lista błędów, aby zobaczyć błędy
-//   5. Wybierz pozycję Projekt > Dodaj nowy element, aby utworzyć nowe pliki kodu, lub wybierz pozycję Projekt > Dodaj istniejący element, aby dodać istniejące pliku kodu do projektu
-//   6. Aby w przyszłości ponownie otworzyć ten projekt, przejdź do pozycji Plik > Otwórz > Projekt i wybierz plik sln
+*/
+
